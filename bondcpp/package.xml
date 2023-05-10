@@ -20,9 +20,9 @@
   <build_depend version_gte="0.3.2">cmake_modules</build_depend>
 
   <depend>bond</depend>
-  <depend>libboost-dev</depend>
-  <depend>libboost-date-time-dev</depend>
-  <depend>libboost-thread-dev</depend>
+  <build_depend>libboost-date-time-dev</build_depend>
+  <build_depend>libboost-dev</build_depend>
+  <build_depend>libboost-thread-dev</build_depend>
   <depend>roscpp</depend>
   <depend>smclib</depend>
   <depend>uuid</depend>
